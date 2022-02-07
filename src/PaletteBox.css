@@ -1,0 +1,19 @@
+.PaletteBox {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 900px;
+  height: 250px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .PaletteBox {
+    flex-flow: column nowrap;
+    width: 310px;
+    height: 400px;
+  }
+}

@@ -1,0 +1,21 @@
+.App {
+  background-color: #121212;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-Icon {
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: 0.8em;
+  color: gray;
+}
+
+.App-Icon a {
+  text-decoration: none;
+  color: darkgray;
+}
