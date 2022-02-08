@@ -52,7 +52,7 @@ class PaletteBox extends Component {
   };
   RGBToHex = (rgb) => {
     let sep = rgb.indexOf(",") > -1 ? "," : " ";
-    // Transforma "rgb(r,g,b)" into [r,g,b]
+    // Transforma "rgb(r,g,b)" em [r,g,b]
     rgb = rgb.substr(4).split(")")[0].split(sep);
 
     let r = (+rgb[0]).toString(16),

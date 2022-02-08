@@ -30,7 +30,7 @@ class ColorBox extends Component {
           className={`ColorBox-ColorName ${isLightColor && "dark-text"}`}
           onClick={this.handleNameClick}
         >
-          {isCopied ? "Copied!" : color}
+          {isCopied ? "Copiado !" : color}
         </div>
       </div>
     );
